@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    $('.slider-area').owlCarousel({
+        items:1,
+        loop:true,
+        dots:true,
+        nav:false,
+        autoplay:false
+    })
+    $('.logo-carousel').owlCarousel({
+        items:5,
+        loop:true,
+        nav:false,
+        autoplay:false,
+        margin:30
+    })
+})
